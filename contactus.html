@@ -8,6 +8,52 @@
 		box-sizing: border-box;
 		font-family: 'Poppins', sans-serif;
 	}
+	.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+	width: 100%;
+    padding: 0 100px;
+    font-size: larger;
+
+}
+
+.header a{
+    padding: 0 25px;
+    border-radius: 15px; 
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.header a:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 5px;
+    color: white;
+    border: none;
+    background-color: orange;
+    width: 7vw;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
 	body{
 		width: 100%;
 		min-height: 100vh;
@@ -191,15 +237,27 @@
 
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
-
-
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
-
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 	<title>Contact Section</title>
 </head>
+
 <body>
+	<div class="header">
+		<div class="header-options">
+			<a href="index.html">Home</a>
+			<a href="menu.html">Menu</a>
+			<a href="about.html">About Us</a>
+			<a href="contactus.html">Contact Us</a>
+			<div class="ldiv">
+				<a href="login.html">
+					<button id="login">Login
+						<i class='bx bxs-user-circle'></i>
+					</button>
+				</a>
+			</div>
+		</div>
+	</div>
 	<div class="container">
 		<main class="row">
 			
