@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+    color: white;
+    box-sizing: border-box;
+}
+
+body{
+    /* background-image: url(menu-bg.jpg); */
+    background-image: url(https://t3.ftcdn.net/jpg/03/32/24/92/360_F_332249282_aicKD4ZlPqVTg2PvbZtDGP5RTzU6cXj3.jpg);
+    height: 110vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    position: relative;
+    left: 15px;
+    transition: all 0.2s ease;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    padding: 0 100px;
+    font-size: larger;
+
+}
+
+.header a{
+    padding: 0 25px;
+    border-radius: 15px; 
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.header a:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+}
+.header img{
+    margin-top: 70px;
+    height: 200px;
+    margin-right: auto;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    color: white;
+    scale: 1.2;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 5px;
+    color: white;
+    border: none;
+    background-color: orange;
+    width: 7vw;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+.ldiv a:hover{
+    border: none;
+    background-color: transparent;
+    scale: 1.15;
+}
+.ldiv button:hover{
+    scale: 1.05;
+}
+.pizza1{
+    margin-left: 8.5cm;
+   
+}
+.pizza2{
+    margin-left: 8cm;
+   
+}
+.pastas1{
+    margin-left: 7cm;
+}
+.menu1{
+    margin-top: 41px;
+    padding: 0 25px;
+    border-radius: 15px; 
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 30cm;
+    font-size: 18px;
+    
+}
+.menu div{
+    width: 45vw;
+    height: 140px;
+    margin-bottom: 22px ;
+    margin-left: 22px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding-left: 7cm;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    transition: all 0.2s ease;
+    margin-right: 1cm;
+    
+}
+.pizza{
+    background-image:url(pizza.jpg) ;
+    background-size: cover;
+    display: inline-block;
+}
+.pastas{
+    background-image: url(pasta.jpg);
+    background-size: cover;
+}
+.desserts{
+    background-image: url(dessert.jpg);
+    background-size: cover;
+}
+.nonveg{
+    background-image: url(nonveg.jpg);
+    background-size: cover;
+}
+.beverages{
+    background-image: url(beverage.jpg);
+    background-size: cover;
+}
+.noodles{
+    background-image: url(noodles.jpg);
+    background-size: cover;
+}
+.burgers{
+    background-image: url(burgers.jpg);
+    background-size: cover;
+}
+.springroll{
+    background-image: url(springroll.jpg);
+    background-size: cover;
+}
+.menu div:hover{
+    scale: 1.02;
+}
+.menu-heading h2{
+    text-align: center;
+    font-size: 5vw;
+}
+
+.container{
+    display: flex;
+    margin-bottom: 20px;}

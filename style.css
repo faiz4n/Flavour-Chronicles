@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "poppins";
+}
+body{
+    background: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    position: relative;
+    left: 15px;
+    transition: all 0.2s ease;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    padding: 0 100px;
+    font-size: larger;
+
+}
+
+.header a{
+    padding: 0 25px;
+    border-radius: 15px; 
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+.header a:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    transition: all 0.2s ease;
+}
+.header img{
+    margin-top: 70px;
+    height: 200px;
+    margin-right: auto;
+}
+.header-options{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    color: white;
+    scale: 1.2;
+}
+#login{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    gap: 5px;
+    color: white;
+    border: none;
+    background-color: orange;
+    width: 7vw;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+}
+#login:hover{
+    background-color: rgb(208, 141, 16);
+    scale: 1.05;
+}
+
+
+.quote {
+    position: relative;
+    top: 5vw;
+    width: 45%;
+    padding: 7%;
+    color: white;
+}
+.quote h1{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 4vw;
+}
+.quote span{
+    font-family: 'Edu TAS Beginner', cursive, 'Roboto', sans-serif;
+    font-size: 4vw;
+    color:chocolate; font-family: 'Edu TAS Beginner', cursive, 'Roboto', sans-serif;
+    font-size: 4vw;
+    color:chocolate;
+}
+.quote p {
+    margin-top: 20px;
+    font-size: 2vw;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-weight: 400;
+}
+.ldiv a:hover{
+    background-color: transparent;
+    border: none    ;
+}
